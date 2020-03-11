@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="icon" href="Capture.PNG" type="image/gif" sizes="16x16">
+    <STYle>
+        header{text-align: center;font-size: xx-large;}
+        li{font-weight: bold;}
+        #idselector{font-style: italic; color: darkblue;}
+        .definitions{color: darkred;}
+        ul li a{color: goldenrod;}
+        ol>a{color: green;}
+    </STYle>
+</head>
+<body>
+    <header><strong>SELECTORS</strong></header>
+    <h1>CSS Selectors</h1>
+    <ol>
+        <li>Element selector</li>
+        <p class="definitions">Selects HTML elements based on the element name.</p>
+        <li>ID selector</li>
+        <p id="idselector">Uses the id attribute of an HTML element to select a specific element.</p>
+        <li>Class selector</li>
+        <p class="definitions">Selects HTML elements with a specific class attribute</p>
+        <li>Descendant selector</li>
+        <p>Targets only those anchors that are contained within an unordered list rather than all.</p>
+        <a href="*">Home</a>
+        <ul>
+            <li>
+                <a href="*">About</a>
+            </li>
+            <li>
+                <a href="*">Services</a>
+            </li>
+        </ul>
+        <li>Direct descendant selectors</li>
+        <p>Selects those elements that are direct children of some element.</p>
+    </ol>
+
+</body>
+</html>
